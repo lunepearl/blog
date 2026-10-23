@@ -20,4 +20,4 @@ const Share = new Schema({
 
 const shareSchema = mongoose.model('Shares', Share);
 
-module.exports = { shareSchema };
+module.exports = shareSchema;

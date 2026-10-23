@@ -1,5 +1,11 @@
-constructShareResponse = (share) => {
-    const { postId, createdAt, updtaedAt, createdBy } = share || {}
+const constructShareResponse = (share) => {
+    const { postId, createdAt, updatedAt, createdBy } = share || {}
     return { postId, createdAt, updatedAt, createdBy }
 }
-module.exports = { constructShareResponse }
+
+const constructShareCountResponse = (shareCount) => {
+    return {shareCount }
+}
+
+module.exports = { constructShareResponse, constructShareCountResponse }
+

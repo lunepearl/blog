@@ -10,6 +10,8 @@
     "dev": "npx nodemon ./index.js"
   },
   "dependencies": {
+    "all-scripts": "^0.0.6",
+    "approve": "^0.0.12",
     "argon2": "^0.44.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
@@ -17,6 +19,7 @@
     "jose": "^6.2.8",
     "mongodb": "^7.5.0",
     "mongoose": "^9.7.4",
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "redis": "^6.3.0"
   }
 }
